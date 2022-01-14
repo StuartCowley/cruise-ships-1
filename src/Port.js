@@ -1,8 +1,8 @@
 class Port {
   constructor(portName){
-  this.portName = portName;
-  this.ships = [];
-  }
+    this.portName = portName;
+    this.ships = [];
+  };
   addShip(ship) {
     this.ships.push(ship);
   };
